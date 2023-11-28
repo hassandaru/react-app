@@ -13,7 +13,7 @@ module.exports = {
       }),
     ],
     devServer: {
-      port: 3030, // you can change the port
+      port: 5500, // you can change the port
     },
     module: {
       rules: [
