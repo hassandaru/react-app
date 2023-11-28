@@ -2,6 +2,34 @@ h1 {
     color: red;
   }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li {
+  padding: 20px;
+}
+
+.img-logo {
+  width: 40px;
+}
+
+.footer {
+  position: 'absolute';
+  color: white;
+  background-color: lightgrey;
+  left: 15px;
+  bottom: 0;
+  
+}
+
   /* make the customizations */
 $theme-colors: (
   'info': tomato,

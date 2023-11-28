@@ -29,7 +29,7 @@ const Homepage = () => {
 
 
   return (
-    <div style={{padding: "4em 0em"}}>
+    <div style={{padding: "10em 0em"}}>
       <header>
         <nav>
           <img src={logo} width="40px" />
@@ -40,8 +40,8 @@ const Homepage = () => {
         <li>it is a popular library. so ill be able to fit in with the cool kids.</li>
         <li>I am more likely to get a job as a developer. if i know React.</li>
       </ul>
-      <footer>
-        2023 development. All rights reserved
+      <footer className="footer">
+        <small>2023 development. All rights reserved</small>
       </footer>
   
   </div>
